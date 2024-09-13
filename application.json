@@ -1,0 +1,39 @@
+{
+  "pages": [
+    {
+      "id": "Chats",
+      "isDefault": true
+    },
+    {
+      "id": "Login",
+      "isDefault": false
+    },
+    {
+      "id": "Images",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {},
+    "themeSetting": {
+      "sizing": 1.0,
+      "density": 1.0,
+      "appMaxWidth": "LARGE"
+    }
+  },
+  "color": "#D9E7FF",
+  "icon": "shirt",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

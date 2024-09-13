@@ -1,0 +1,43 @@
+{
+  "unpublishedPage": {
+    "name": "Login",
+    "slug": "login",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 400,
+          "containerStyle": "none",
+          "snapRows": 61,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 90,
+          "minHeight": 630,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Login",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policyMap": {},
+    "isHidden": false
+  },
+  "gitSyncId": "66e38a9f4d42727634c347dd_64f37587-537e-43cd-a081-2d41b28d3183",
+  "deleted": false
+}

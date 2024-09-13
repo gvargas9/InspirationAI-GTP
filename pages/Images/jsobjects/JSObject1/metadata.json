@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Images",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "gitSyncId": "66e38a9f4d42727634c347dd_27d4cb00-8164-454a-b328-115249e01dd2",
+  "id": "Images_JSObject1",
+  "deleted": false
+}

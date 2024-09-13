@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Hash_str",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "gitSyncId": "66e38a9f4d42727634c347dd_f28928fe-9749-44d4-864a-927263e01143",
+  "id": "Login_Hash_str",
+  "deleted": false
+}

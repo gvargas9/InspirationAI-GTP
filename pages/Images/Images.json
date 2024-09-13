@@ -1,0 +1,54 @@
+{
+  "unpublishedPage": {
+    "name": "Images",
+    "slug": "images",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 570,
+          "containerStyle": "none",
+          "snapRows": 61,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 90,
+          "minHeight": 630,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Images_GetUserImages",
+              "name": "GetUserImages",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Images",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policyMap": {},
+    "isHidden": false
+  },
+  "gitSyncId": "66e38a9f4d42727634c347dd_4840f8c1-b7b2-48a3-a947-38d9633968c8",
+  "deleted": false
+}
