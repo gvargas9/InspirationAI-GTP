@@ -2,7 +2,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 14,
-    "widgetName": "Image2",
+    "widgetName": "Image_requested",
     "topRow": 0,
     "bottomRow": 23,
     "parentRowSpace": 10,
@@ -17,7 +17,7 @@
         {"key": "borderRadius"},
         {"key": "image"}
     ],
-    "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+    "defaultImage": "",
     "flexVerticalAlignment": "start",
     "key": "xxbs1tiurl",
     "image": "{{ appsmith.store.selectedImage }}",
