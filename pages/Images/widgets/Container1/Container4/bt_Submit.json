@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 15,
     "widgetName": "bt_Submit",
-    "onClick": "{{\nbt_Cancel.setVisibility(false);\nbt_Clear.setVisibility(false);\nbt_Submit.setVisibility(false);\nbt_newImage.setVisibility(true);\nNewImagePanel.setVisibility(false);\nImage_requested.setImage(\"https://inspiration.gvargas.com:4313/n2f5v2lbge_a74e9v2snc.jpg\");\nText_ImageDate.setText(TextImageGen.text);\nText_ImageDate.setText(\"Processing\");\nGenImagesUser.run();\nwait();\nGetUserImages.run();\n}}\n",
+    "onClick": "{{\nbt_Cancel.setVisibility(false);\nbt_Clear.setVisibility(false);\nbt_Submit.setVisibility(false);\nbt_newImage.setVisibility(true);\nNewImagePanel.setVisibility(false);\nImage_requested.setImage(\"https://inspiration.gvargas.com:4313/n2f5v2lbge_a74e9v2snc.jpg\");\nText_ImageDate.setText(TextImageGen.text);\nGenImagesUser.run();\nText_ImageDate.setText(\"Processing\");\nGetUserImages.run();\n\n}}\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "topRow": 0,

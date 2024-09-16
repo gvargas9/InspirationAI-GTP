@@ -1,7 +1,7 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "onSubmit": "{{Api_AuthUser.run().then(() => {\nstoreValue(\"user\", { \"name\": JSONForm_login.formData.user_name, \"logged\": Api_AuthUser.data[0].logged, \"timestamp\": Api_AuthUser.data[0].timestamp});  showAlert(JSONForm_login.formData.user_name + \": \"+ Api_AuthUser.data[0].logged, Api_AuthUser.data.logged)\n});\nif (Api_AuthUser.data[0].logged) \n{\n{{navigateTo('main', {}, 'SAME_WINDOW');}}\n}\nelse\n{\n  showAlert(\"Bad Login\");\n}\n}}",
+    "onSubmit": "{{\nApi_AuthUser.run().then(() => {\nstoreValue(\"user\", { \"name\": JSONForm_login.formData.user_name, \"logged\": Api_AuthUser.data[0].logged, \"timestamp\": Api_AuthUser.data[0].timestamp});  showAlert(JSONForm_login.formData.user_name + \": \"+ Api_AuthUser.data[0].logged, Api_AuthUser.data.logged)\n});\nif (Api_AuthUser.data[0].logged) \n{\n{{navigateTo('Images', {}, 'SAME_WINDOW');}}\n}\nelse\n{\n  showAlert(\"Bad Login\");\n}\n}}",
     "topRow": 6,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
