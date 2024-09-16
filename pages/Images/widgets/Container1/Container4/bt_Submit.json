@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 15,
     "widgetName": "bt_Submit",
-    "onClick": "{{\nbt_Cancel.setVisibility(false);\nbt_Clear.setVisibility(false);\nbt_Submit.setVisibility(false);\nbt_newImage.setVisibility(true);\nNewImagePanel.setVisibility(false);\nImage_requested.setImage(\"https://inspiration.gvargas.com:4313/n2f5v2lbge_a74e9v2snc.jpg\");\nText_ImageDate.setText(TextImageGen.text);\nGenImagesUser.run();\nText_ImageDate.setText(\"Processing\");\nGetUserImages.run();\n\n}}\n",
+    "onClick": "{{\nbt_Cancel.setVisibility(false);\nbt_Clear.setVisibility(false);\nbt_Submit.setVisibility(false);\nbt_newImage.setVisibility(true);\nNewImagePanel.setVisibility(false);\nImage_requested.setImage(\"https://inspiration.gvargas.com:4313/n2f5v2lbge_a74e9v2snc.jpg\");\n\nif (ch_keepprompt.isChecked) {\n  TextImageGen.setValue(\"[I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS:]\" + TextImageGen.text);\n}\n\nGenImagesUser.run();\nText_ImageDate.setText(\"Processing\");\nText_Request.setText(\"Processigng\");\n}}\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "topRow": 0,

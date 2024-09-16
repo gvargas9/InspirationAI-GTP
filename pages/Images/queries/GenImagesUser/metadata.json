@@ -28,7 +28,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"user_name\": \"{{appsmith.store.user}}\",\n\t\"assettype\": 1,\n\t\"prompt-\": \"{{Text_ImageDate.text}}\",\n}",
+      "body": "{\n\t\"user_name\": \"{{appsmith.store.user}}\",\n\t\"assettype\": 1,\n\t\"prompt-\": \"{{TextImageGen.text}}\",\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -52,7 +52,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Text_ImageDate.text",
+      "TextImageGen.text",
       "appsmith.store.user"
     ],
     "userSetOnLoad": false,

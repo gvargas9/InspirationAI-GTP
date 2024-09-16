@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
-    "topRow": 1,
+    "topRow": 5,
     "isSortable": false,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -74,7 +74,7 @@
         {"key": "primaryColumns.Filename.onClick"}
     ],
     "compactMode": "DEFAULT",
-    "bottomRow": 59,
+    "bottomRow": 63,
     "columnWidthMap": {
         "Prompt0": 106,
         "ImageID": 100,
