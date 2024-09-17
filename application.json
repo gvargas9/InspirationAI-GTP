@@ -11,6 +11,10 @@
     {
       "id": "Images",
       "isDefault": false
+    },
+    {
+      "id": "Images Copy",
+      "isDefault": false
     }
   ],
   "viewMode": false,

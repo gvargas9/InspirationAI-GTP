@@ -5,8 +5,8 @@
     "widgetName": "NewImagePanel",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
-    "topRow": 37,
-    "bottomRow": 53,
+    "topRow": 34,
+    "bottomRow": 50,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "shouldScrollContents": true,
@@ -73,10 +73,10 @@
     "isLoading": false,
     "mobileTopRow": 43,
     "responsiveBehavior": "fill",
-    "originalTopRow": 37,
+    "originalTopRow": 34,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 11,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 53,
+    "originalBottomRow": 50,
     "minDynamicHeight": 10
 }

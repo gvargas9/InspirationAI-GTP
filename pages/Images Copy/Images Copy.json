@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Images",
-    "slug": "images",
+    "name": "Images Copy",
+    "slug": "images-copy",
     "customSlug": "",
     "layouts": [
       {
@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 700,
+          "bottomRow": 670,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -29,23 +29,21 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Images_GetUserImages",
-              "name": "GetUserImages",
+              "id": "Images Copy_RunOnLoad.showLogin",
+              "name": "RunOnLoad.showLogin",
+              "collectionId": "Images Copy_RunOnLoad",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Images Copy_getUserChats",
+              "name": "getUserChats",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.user.name"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Images_RunOnLoad.showLogin",
-              "name": "RunOnLoad.showLogin",
-              "collectionId": "Images_RunOnLoad",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  var a = appsmith.store.user.logged;\n  if (a === false) {\n    return navigateTo('Login', {}, 'SAME_WINDOW');\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -53,7 +51,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Images",
+        "id": "Images Copy",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -63,6 +61,6 @@
     "policyMap": {},
     "isHidden": false
   },
-  "gitSyncId": "66e38a9f4d42727634c347dd_4840f8c1-b7b2-48a3-a947-38d9633968c8",
+  "gitSyncId": "66e38a9f4d42727634c347dd_77c79d4b-d5a3-41b8-bc75-99aff092b042",
   "deleted": false
 }
