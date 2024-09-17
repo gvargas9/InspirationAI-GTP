@@ -38,6 +38,9 @@
   },
   "color": "#D9E7FF",
   "icon": "alien",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

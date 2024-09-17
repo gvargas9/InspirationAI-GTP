@@ -3,8 +3,8 @@
     "boxShadow": "none",
     "mobileBottomRow": 14,
     "widgetName": "Image_requested",
-    "topRow": 0,
-    "bottomRow": 23,
+    "topRow": 1,
+    "bottomRow": 27,
     "parentRowSpace": 10,
     "type": "IMAGE_WIDGET",
     "mobileRightColumn": 15,
@@ -15,13 +15,14 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "image"}
+        {"key": "image"},
+        {"key": "defaultImage"}
     ],
-    "defaultImage": "",
+    "defaultImage": "{{ appsmith.store.selectedImage }}",
     "flexVerticalAlignment": "start",
     "key": "xxbs1tiurl",
     "image": "{{ appsmith.store.selectedImage }}",
-    "rightColumn": 23,
+    "rightColumn": 22,
     "objectFit": "contain",
     "widgetId": "3mleg2ef5c",
     "isVisible": true,
