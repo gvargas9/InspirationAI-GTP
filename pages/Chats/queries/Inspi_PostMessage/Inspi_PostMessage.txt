@@ -1,0 +1,5 @@
+{
+	"content":"{{TextChatInput.text}}",
+	"thread_id":{{Table1.selectedRow.threadid}},
+	"assistant_id":{{Table1.selectedRow.assistantid}},
+}

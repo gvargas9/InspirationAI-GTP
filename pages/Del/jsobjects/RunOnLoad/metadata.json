@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "RunOnLoad",
-    "pageId": "Chats",
+    "pageId": "Del",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "gitSyncId": "66e38a9f4d42727634c347dd_9188b127-556e-472d-9ba6-59d7405d0d5f",
-  "id": "Chats_RunOnLoad",
+  "gitSyncId": "66e38a9f4d42727634c347dd_b87d8de0-47a7-4664-a67c-f4ab7b04a01c",
+  "id": "Del_RunOnLoad",
   "deleted": false
 }

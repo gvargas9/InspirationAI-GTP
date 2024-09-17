@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "showLogin",
-    "fullyQualifiedName": "RunOnLoad.showLogin",
+    "name": "formatImageData",
+    "fullyQualifiedName": "JS.formatImageData",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -16,7 +16,7 @@
       "userPermissions": []
     },
     "pageId": "Chats",
-    "collectionId": "Chats_RunOnLoad",
+    "collectionId": "Chats_JS",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -24,7 +24,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -33,13 +33,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policyMap": {},
     "userPermissions": [],
-    "createdAt": "2024-09-17T01:31:30Z"
+    "createdAt": "2024-09-13T02:36:54Z"
   },
-  "gitSyncId": "66e38a9f4d42727634c347dd_05ea47af-0294-4551-a1a9-478c05cb5dc6",
-  "id": "Chats_RunOnLoad.showLogin",
+  "gitSyncId": "66e38a9f4d42727634c347dd_1e6c686f-1bf6-49c8-9d22-e6f2d63a2a35",
+  "id": "Chats_JS.formatImageData",
   "deleted": false
 }

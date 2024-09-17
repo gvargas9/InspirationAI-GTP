@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Chats",
+      "id": "Del",
       "isDefault": true
     },
     {
@@ -13,7 +13,7 @@
       "isDefault": false
     },
     {
-      "id": "Images Copy",
+      "id": "Chats",
       "isDefault": false
     }
   ],
@@ -43,7 +43,7 @@
   "color": "#D9E7FF",
   "icon": "alien",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "TABLET"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"

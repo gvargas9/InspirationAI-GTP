@@ -1,27 +1,27 @@
 {
   "unpublishedPage": {
-    "name": "Chats",
-    "slug": "chats",
-    "customSlug": "",
+    "name": "Del",
+    "slug": "del",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 800,
+          "bottomRow": 400,
           "containerStyle": "none",
-          "snapRows": 61,
+          "snapRows": 124,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 90,
-          "minHeight": 630,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,33 +29,23 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Chats_RunOnLoad.showLogin",
-              "name": "RunOnLoad.showLogin",
-              "collectionId": "Chats_RunOnLoad",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Chats_getUserChats",
-              "name": "getUserChats",
+              "id": "Del_Api_Chats",
+              "name": "Api_Chats",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.user.name"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
-              "id": "Chats_GetThreadMessages",
-              "name": "GetThreadMessages",
+              "id": "Del_RunOnLoad.showLogin",
+              "name": "RunOnLoad.showLogin",
+              "collectionId": "Del_RunOnLoad",
               "confirmBeforeExecute": false,
-              "pluginType": "API",
+              "pluginType": "JS",
               "jsonPathKeys": [
-                "Table1.selectedRow.threadid"
+                "() => {\n  var a = appsmith.store.user.logged;\n  if (a === false) {\n    return navigateTo('Login', {}, 'SAME_WINDOW');\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -63,7 +53,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Chats",
+        "id": "Del",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -73,6 +63,6 @@
     "policyMap": {},
     "isHidden": false
   },
-  "gitSyncId": "66e38a9f4d42727634c347dd_77c79d4b-d5a3-41b8-bc75-99aff092b042",
+  "gitSyncId": "66e38a9f4d42727634c347dd_d474687f-0142-418f-b7d3-4c4dfd963dda",
   "deleted": false
 }

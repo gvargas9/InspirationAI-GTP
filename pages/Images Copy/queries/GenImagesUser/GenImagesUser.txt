@@ -1,5 +1,0 @@
-{
-	"user_name": "{{appsmith.store.user}}",
-	"assettype": 1,
-	"prompt-": "{{TextImageGen.text}}",
-}
