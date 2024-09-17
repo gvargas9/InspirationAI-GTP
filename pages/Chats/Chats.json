@@ -37,6 +37,17 @@
                 "appsmith.store.user.name"
               ],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Chats_RunOnLoad.showLogin",
+              "name": "RunOnLoad.showLogin",
+              "collectionId": "Chats_RunOnLoad",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  var a = appsmith.store.user.logged;\n  if (a === false) {\n    return navigateTo('Login', {}, 'SAME_WINDOW');\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
             }
           ]
         ],

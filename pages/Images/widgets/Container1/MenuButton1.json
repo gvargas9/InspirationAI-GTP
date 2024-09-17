@@ -14,6 +14,7 @@
             "isDisabled": false
         }
     },
+    "dynamicPropertyPathList": [{"key": "menuItems.menuItem1.onClick"}],
     "topRow": 0,
     "bottomRow": 4,
     "parentRowSpace": 10,
@@ -21,7 +22,7 @@
     "mobileRightColumn": 34,
     "animateLoading": true,
     "parentColumnSpace": 17.3447265625,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "menuItems.menuItem1.onClick"}],
     "leftColumn": 49,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
@@ -35,6 +36,7 @@
     "widgetId": "kf8pvmjmt2",
     "menuItems": {
         "menuItem1": {
+            "onClick": "{{\n\nstoreValue(\"logged\",false);\nnavigateTo('Login', {}, 'SAME_WINDOW');\n}}",
             "widgetId": "",
             "index": 0,
             "label": "LogOut",

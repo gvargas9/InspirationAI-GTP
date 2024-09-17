@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 700,
+          "bottomRow": 730,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -35,6 +35,17 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.user.name"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Images_RunOnLoad.showLogin",
+              "name": "RunOnLoad.showLogin",
+              "collectionId": "Images_RunOnLoad",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  var a = appsmith.store.user.logged;\n  if (a === false) {\n    return navigateTo('Login', {}, 'SAME_WINDOW');\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }

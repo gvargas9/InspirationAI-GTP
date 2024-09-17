@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "RunOnLoad",
+    "pageId": "Chats",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "gitSyncId": "66e38a9f4d42727634c347dd_b87d8de0-47a7-4664-a67c-f4ab7b04a01c",
+  "id": "Chats_RunOnLoad",
+  "deleted": false
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "RunOnLoad",
+    "pageId": "Images",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "gitSyncId": "66e38a9f4d42727634c347dd_cf51fa63-51a7-4df5-b9ad-78b05da5a49f",
+  "id": "Images_RunOnLoad",
+  "deleted": false
+}

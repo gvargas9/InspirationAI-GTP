@@ -4,7 +4,7 @@
     "widgetName": "Text_Request",
     "borderColor": "#e0dede",
     "topRow": 4,
-    "bottomRow": 8,
+    "bottomRow": 11,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "mobileRightColumn": 45,

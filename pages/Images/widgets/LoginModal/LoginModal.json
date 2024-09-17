@@ -2,7 +2,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 37,
-    "widgetName": "imageModal",
+    "widgetName": "LoginModal",
     "isCanvas": true,
     "topRow": 13,
     "bottomRow": 523,
