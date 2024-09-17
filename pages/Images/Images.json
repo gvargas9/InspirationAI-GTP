@@ -2,6 +2,7 @@
   "unpublishedPage": {
     "name": "Images",
     "slug": "images",
+    "customSlug": "",
     "layouts": [
       {
         "viewMode": false,
@@ -32,7 +33,9 @@
               "name": "GetUserImages",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.user.name"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
@@ -47,7 +50,7 @@
     ],
     "userPermissions": [],
     "policyMap": {},
-    "isHidden": false
+    "isHidden": true
   },
   "gitSyncId": "66e38a9f4d42727634c347dd_4840f8c1-b7b2-48a3-a947-38d9633968c8",
   "deleted": false
