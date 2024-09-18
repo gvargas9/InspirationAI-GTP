@@ -43,10 +43,10 @@
   "color": "#D9E7FF",
   "icon": "alien",
   "unpublishedAppLayout": {
-    "type": "TABLET"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "TABLET"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],

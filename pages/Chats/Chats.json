@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 800,
+          "bottomRow": 690,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -28,6 +28,14 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Chats_Api_GetAssistants",
+              "name": "Api_GetAssistants",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Chats_RunOnLoad.showLogin",
               "name": "RunOnLoad.showLogin",

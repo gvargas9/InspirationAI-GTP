@@ -1,0 +1,5 @@
+{
+	"username": "{{appsmith.store.user.name}}",
+	"assistant_id":"{{SelectAssistant.selectedOptionValue}}",
+	"assistant_name":"{{SelectAssistant.selectedOptionLabel}}",
+}
