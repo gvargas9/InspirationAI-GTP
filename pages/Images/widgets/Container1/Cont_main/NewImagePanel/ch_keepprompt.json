@@ -20,7 +20,7 @@
     "isDisabled": false,
     "key": "45nf3ppu6u",
     "isRequired": false,
-    "rightColumn": 17,
+    "rightColumn": 22,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "hjxrm30ndr",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -38,6 +38,6 @@
     "mobileLeftColumn": 10,
     "defaultCheckedState": true,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 14,
+    "originalBottomRow": 15,
     "minDynamicHeight": 4
 }
